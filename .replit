@@ -1,0 +1,6 @@
+run = "sh build.sh"
+hidden = ["build.sh", "vcpkg", "install.sh"]
+
+
+[nix]
+channel = "stable-22_11"
